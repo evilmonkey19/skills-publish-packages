@@ -1,2 +1,2 @@
-FROM alpine
-CMD ["echo", "Hello StackOverflow!"]
+FROM nginx:1.24-alpine
+COPY . /usr/share/nginx/html
